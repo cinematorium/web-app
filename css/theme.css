@@ -1,0 +1,56 @@
+:root {
+  --color-primary: goldenrod;
+  --color-primary-dark: brown;
+  --color-primary-light: gold;
+  --color-secondary: lightcoral;
+  --color-accent: #7573ff;
+  --color-neutral: #f6f1ec;
+
+  --font-primary: Georgia, serif;
+  --font-secondary: "PT Sans Narrow", sans-serif;
+
+  --border-radius: 8px;
+}
+
+/* ------- theme classes ---------- */
+
+/* @utility Apply the primary typeface */
+.font-primary {
+  font-family: var(--font-primary);
+}
+
+/* @utility Apply the secondary typeface */
+.font-secondary {
+  font-family: var(--font-secondary);
+}
+
+/* @utility Apply the neutral background colour to an element */
+.bg-neutral {
+  background-color: var(--color-neutral);
+}
+
+/* @utility Apply the dark background colour to an element */
+.bg-dark {
+  background-color: var(--color-primary-dark);
+}
+
+/* ------- theme typography ---------- */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary-dark);
+}
+
+a {
+  color: var(--color-primary-dark);
+}
+
+mark {
+  background-color: var(--color-accent);
+}
+
+dt {
+  font-weight: bold;
+}
+
+/* ------- theme ...  ---------- */
