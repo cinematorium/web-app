@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>Cinematorium Today</title>
-</head>
-<body>
+---
+layout: default
+---
 
-  <h1>Cinematorium Today</h1>
-
-</body>
-</html>
+<div class="grid">
+  {% for movie in site.data.movies %}
+    <div class="unit xs-1 s-1-2 m-1-3 l-1-4">
+      {% pattern cards/image data=movie %}
+    </div>
+  {% endfor %}
+</div>
