@@ -1,0 +1,21 @@
+title: "Buttons, click-click"
+description: |
+  Lots of different cute buttons.
+
+patterns:
+  basic:
+    title: "Vanilla basikk"
+    description:
+      The most vanilla of all the buttons should be used in all situations.
+    fields:
+      - name: call-to-action
+        type: string
+        example: "View details"
+  ghost:
+    title: "Horrror ghost"
+    description: |
+      The scariest of all the buttons should be used in .... situations.
+    fields:
+      - name: call-to-action
+        type: string
+        example: "View details"

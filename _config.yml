@@ -1,3 +1,23 @@
 permalink: pretty
 
 theme: jekyll_patternbot
+
+patternbot:
+  title: "Cinematorium Today"
+  description: |
+    Our app allows the user to see and instantaneously buy tickets for the movies that are playing today at the Cinematorium. We want to keep the web app as simple as possible, not being overbearing and disorganized like most cinema websites are. Need something to do today? Check the app for todays showtimes and then drop in and scan the tickets that you've already purchased.
+  font_url: "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700"
+  colors:
+    background: white
+    patterns:
+      brand.logos: "--color-neutral"
+      icons.icons.icon-slice: "--color-primary-dark"
+  rationales:
+    colors.primary: |
+      That's why we chose this colour. It should be used when...
+    colors.secondary: |
+      That's why we chose this colour. It should be used when...
+    typefaces.primary: |
+      That's why we chose this font. It should be used when...
+    typefaces.secondary: |
+      That's why we chose this font. It should be used when...
