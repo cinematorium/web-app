@@ -52,6 +52,24 @@
   color: var(--color-accent-dark);
 }
 
+/* GHOST LIGHT */
+.btn-ghost-light {
+  background-color: white;
+  border: 3px solid white;
+  color: white;
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  border-radius: 0;
+  padding: .75em 1.25em;
+}
+
+.btn-ghost-light:hover,
+.btn-ghost-light:focus {
+  background-color: rgba(255,255,255,.3);
+  border: 3px solid white;
+  color: white;
+}
+
 /* ACCENT */
 .btn-accent {
   background-color: var(--color-secondary);
@@ -104,3 +122,5 @@
   transition-timing-function: ease-out;
   transition: 0.2s;
 }
+
+/* LIGHT */
