@@ -5,8 +5,12 @@
   --color-secondary: #dfa528;
   --color-secondary-dark: #a77029;
   --color-accent: #009493;
+  --color-accent-transparent: rgba(0,148,147,.2);
   --color-accent-dark: #005e5d;
   --color-neutral: #f6f1ec;
+  --color-neutral-middle: #a7a9ac;
+  --color-neutral-dark: #6d6e71;
+
 
   --font-primary: "Overpass", sans-serif;
   --font-secondary: "Montserrat", sans-serif;
