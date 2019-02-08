@@ -123,4 +123,7 @@
   transition: 0.2s;
 }
 
-/* LIGHT */
+/* TIME */
+.btn-time {
+  padding: .5em 1em;
+}
