@@ -1,20 +1,68 @@
-title: "Buttons, click-click"
+title: "Buttons"
 description: |
-  Lots of different cute buttons.
+  Lots of different buttons.
 
 patterns:
   basic:
-    title: "Vanilla basikk"
+    title: "Primary"
     description:
-      The most vanilla of all the buttons should be used in all situations.
+      The plainest of plain buttons that should be used in all situations.
     fields:
       - name: call-to-action
         type: string
         example: "View details"
   ghost:
-    title: "Horrror ghost"
+    title: "Ghost"
     description: |
-      The scariest of all the buttons should be used in .... situations.
+      This ghost pales in comparison to most buttons—and should be used in discrete situations.
+    fields:
+      - name: call-to-action
+        type: string
+        example: "View details"
+  accent:
+    title: "Accent"
+    description: |
+      This accent button packs a bigger punch than your basic button.
+    fields:
+      - name: call-to-action
+        type: string
+        example: "View details"
+  go-back:
+    title: "Go Back"
+    description: |
+      Go back? Undo? Yes please. This button should be used as a navigational tool.
+    fields:
+      - name: call-to-action
+        type: string
+        example: "View details"
+  secondary:
+    title: "Secondary"
+    description: |
+      This secondary button comes close second to being primary. Use this button for less visual clutter.
+    fields:
+      - name: call-to-action
+        type: string
+        example: "View details"
+  time:
+    title: "Time"
+    description: |
+      Ample thumb room and good accessibility... This schedule button also works great in a grid.
+    fields:
+      - name: call-to-action
+        type: string
+        example: "View details"
+  light:
+    title: "Light"
+    description: |
+      Transparency is important. So is this button for best impact on dark elements.
+    fields:
+      - name: call-to-action
+        type: string
+        example: "View details"
+  download:
+    title: "Download"
+    description: |
+      Download... all the things!
     fields:
       - name: call-to-action
         type: string
