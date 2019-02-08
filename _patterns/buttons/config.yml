@@ -11,10 +11,10 @@ patterns:
       - name: call-to-action
         type: string
         example: "View details"
-  ghost:
-    title: "Ghost"
+  secondary:
+    title: "Secondary"
     description: |
-      This ghost pales in comparison to most buttons—and should be used in discrete situations.
+      This secondary button comes close second to being primary. Use this button for less visual clutter.
     fields:
       - name: call-to-action
         type: string
@@ -27,6 +27,14 @@ patterns:
       - name: call-to-action
         type: string
         example: "View details"
+  ghost:
+    title: "Ghost"
+    description: |
+      This ghost pales in comparison to most buttons—and should be used in discrete situations.
+    fields:
+      - name: call-to-action
+        type: string
+        example: "View details"
   go-back:
     title: "Go Back"
     description: |
@@ -35,18 +43,18 @@ patterns:
       - name: call-to-action
         type: string
         example: "View details"
-  secondary:
-    title: "Secondary"
-    description: |
-      This secondary button comes close second to being primary. Use this button for less visual clutter.
-    fields:
-      - name: call-to-action
-        type: string
-        example: "View details"
   time:
     title: "Time"
     description: |
       Ample thumb room and good accessibility... This schedule button also works great in a grid.
+    fields:
+      - name: call-to-action
+        type: string
+        example: "View details"
+  time-active:
+    title: "Time Active"
+    description: |
+      Now active! To be used on a check-out page, etc...
     fields:
       - name: call-to-action
         type: string
@@ -67,3 +75,11 @@ patterns:
       - name: call-to-action
         type: string
         example: "View details"
+  paypal:
+    title: "Paypal Checkout"
+    description: |
+      Check-ee-dee-doo, dah! Check this button out!
+    fields:
+      - name: call-to-action
+        type: string
+        example: "Paypal"
