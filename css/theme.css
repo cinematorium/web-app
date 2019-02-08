@@ -1,13 +1,19 @@
 :root {
-  --color-primary: goldenrod;
-  --color-primary-dark: brown;
-  --color-primary-light: gold;
-  --color-secondary: lightcoral;
-  --color-accent: #7573ff;
+  --color-primary: #ad2024;
+  --color-primary-dark: #7d141a;
+  --color-primary-light: #cf2029;
+  --color-secondary: #dfa528;
+  --color-secondary-dark: #a77029;
+  --color-accent: #009493;
+  --color-accent-transparent: rgba(0,148,147,.2);
+  --color-accent-dark: #005e5d;
   --color-neutral: #f6f1ec;
+  --color-neutral-middle: #a7a9ac;
+  --color-neutral-dark: #6d6e71;
 
-  --font-primary: Georgia, serif;
-  --font-secondary: "PT Sans Narrow", sans-serif;
+
+  --font-primary: "Overpass", sans-serif;
+  --font-secondary: "Montserrat", sans-serif;
 
   --border-radius: 8px;
 }
