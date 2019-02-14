@@ -1,8 +1,7 @@
-<div class="card chop">
+<div class="card home-card chop">
   <img class="img-flex" src="/images/movies/{{include.data.image}}" alt="">
-  <div class="island-1-2">
-    <h2>{{include.data.title}}</h2>
-    <p>{{include.data.summary}}</p>
+  <div class="pad-t-1-2">
+    <h2 class="tera push-1-2">{{include.data.title}}</h2>
 
     {% pattern buttons/basic call-to-action=include.data.button_text %}
   </div>
