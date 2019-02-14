@@ -34,6 +34,22 @@
   background-color: var(--color-primary-dark);
 }
 
+.white {
+  color: #fff;
+}
+
+.black {
+  color: #000;
+}
+
+.color-primary {
+  color: var(--color-primary);
+}
+
+.color-secondary {
+  color: var(--color-secondary);
+}
+
 /* ------- theme typography ---------- */
 
 h1, h2, h3, h4, h5, h6 {
@@ -51,6 +67,10 @@ mark {
 
 dt {
   font-weight: bold;
+}
+
+.smallcaps {
+  font-variant: small-caps;
 }
 
 /* ------- theme ...  ---------- */
