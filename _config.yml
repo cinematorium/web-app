@@ -12,7 +12,6 @@ patternbot:
     patterns:
       brand.logos: "--color-neutral"
       icons.icons.icon-slice: "--color-primary-dark"
-      sections: "--color-dark"
   rationales:
     colors.primary: |
       That's why we chose this colour. It should be used when...
