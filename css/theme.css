@@ -3,8 +3,10 @@
   --color-primary-dark: brown;
   --color-primary-light: gold;
   --color-secondary: lightcoral;
+  --color-secondary-bright: #f9b01e;
   --color-accent: #7573ff;
   --color-neutral: #f6f1ec;
+  --color-dark: #061327;
 
   --font-primary: Georgia, serif;
   --font-secondary: "PT Sans Narrow", sans-serif;
@@ -31,11 +33,15 @@
 
 /* @utility Apply the dark background colour to an element */
 .bg-dark {
-  background-color: var(--color-primary-dark);
+  background-color: var(--color-dark);
 }
 
 .white {
   color: #fff;
+}
+
+.white-bg {
+  background-color: #fff;
 }
 
 .black {
@@ -49,6 +55,11 @@
 .color-secondary {
   color: var(--color-secondary);
 }
+
+.color-secondary-bright {
+  color: var(--color-secondary-bright);
+}
+
 
 /* ------- theme typography ---------- */
 
