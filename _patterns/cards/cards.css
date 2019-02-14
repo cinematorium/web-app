@@ -1,4 +1,26 @@
-.card {
-  border: 4px solid var(--color-primary-light);
-  border-radius: var(--border-radius);
+.home-card {
+  text-decoration: none;
+  display: block;
+}
+
+.home-card img {
+  transition: all 0.2s ease-in;
+}
+
+.home-card:hover img {
+  opacity: .4;
+}
+
+.btn-card {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.home-card:hover .btn-card {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
 }
