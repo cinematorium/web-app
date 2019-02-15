@@ -123,4 +123,34 @@
   transition: 0.2s;
 }
 
-/* LIGHT */
+/* TIME */
+.btn-time {
+  padding: .5em 1em;
+}
+
+.btn-time-active {
+  background-color: var(--color-accent-transparent);
+  border: 3px solid var(--color-accent-dark);
+  color: var(--color-accent-dark);
+}
+
+.btn-time-active:active,
+ .btn-time-active:focus,
+ .btn-time-active:hover {
+  background-color: transparent;
+  border: 3px solid var(--color-accent-dark);
+  color: var(--color-accent-dark);
+}
+
+/* PAYPAL */
+.btn-paypal {
+  padding: 1em 2.25em;
+  background-color: #eabc53;
+  border: none;
+  border-radius: 0;
+}
+
+.btn-paypal:hover,
+ .btn-paypal:focus {
+  background-color: #d3a64c;
+}
