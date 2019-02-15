@@ -1,0 +1,5 @@
+patterns:
+  thankyou:
+    width: 300
+  movie-details:
+    width: 300

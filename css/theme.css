@@ -4,12 +4,14 @@
   --color-primary-light: #cf2029;
   --color-secondary: #dfa528;
   --color-secondary-dark: #a77029;
+  --color-secondary-bright: #f9b01e;
   --color-accent: #009493;
   --color-accent-transparent: rgba(0,148,147,.2);
   --color-accent-dark: #005e5d;
   --color-neutral: #f6f1ec;
   --color-neutral-middle: #a7a9ac;
   --color-neutral-dark: #6d6e71;
+  --color-dark: #061327;
 
 
   --font-primary: "Overpass", sans-serif;
@@ -37,8 +39,33 @@
 
 /* @utility Apply the dark background colour to an element */
 .bg-dark {
-  background-color: var(--color-primary-dark);
+  background-color: var(--color-dark);
 }
+
+.white {
+  color: #fff;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+.black {
+  color: #000;
+}
+
+.color-primary {
+  color: var(--color-primary);
+}
+
+.color-secondary {
+  color: var(--color-secondary);
+}
+
+.color-secondary-bright {
+  color: var(--color-secondary-bright);
+}
+
 
 /* ------- theme typography ---------- */
 
@@ -57,6 +84,10 @@ mark {
 
 dt {
   font-weight: bold;
+}
+
+.smallcaps {
+  font-variant: small-caps;
 }
 
 /* ------- theme ...  ---------- */

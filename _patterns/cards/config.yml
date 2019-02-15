@@ -6,3 +6,10 @@ patterns:
         data:
           source: site.data.movies[1]
           type: "Movie"
+  home-card:
+    width: 300
+    fields:
+      - name: data
+        data:
+          source: site.data.movies[3]
+          type: "Movie"

@@ -6,7 +6,17 @@
 - title: Avengers
   summary: A film about...
   image: avengers.jpg
-  button_text: Buy tickets
+  button_text: View details
+
+- title: Bird Box
+  summary: A film about...
+  image: bird-box.jpg
+  button_text: View details
+
+- title: Bohemian Rhapsody
+  summary: Bohemian Rhapsody is a 2018 biographical film about the British rock band Queen.
+  image: card-bohemian.jpg
+  button_text: View details
 
 - title: Bird Box
   summary: A film about...
