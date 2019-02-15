@@ -1,0 +1,16 @@
+.hero-wrap {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  padding: 12rem 0;
+}
+
+.hero-mother-banner {
+  background-image: linear-gradient(rgba(41, 22, 21, 0.6), rgba(41, 22, 21, 1)), url("../images/banners/banner-mother.jpg");
+}
+
+body {
+  background-color: #291615;
+}
