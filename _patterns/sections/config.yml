@@ -1,6 +1,6 @@
 patterns:
   thankyou:
-    width: 320
+    width: 340
     background: "--color-dark"
   movie-details:
     width:
