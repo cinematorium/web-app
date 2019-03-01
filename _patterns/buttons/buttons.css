@@ -10,25 +10,19 @@
 
 /* PRIMARY */
 .btn-primary {
-  background-color: var(--color-accent);
+  background-color: var(--color-primary);
   color: white;
   padding: .75em 1.25em;
   border: none;
   border-radius: 0;
-  -webkit-box-shadow: 0 0 20px #888888;
-  -moz-box-shadow: 0 0 20px #888888;
-  box-shadow: 0 0 20px #888888;
 }
 
 .btn-primary:hover {
-  background-color: var(--color-accent-dark);
+  background-color: var(--color-primary-dark);
 }
 
 .btn-primary:focus {
-  background-color: var(--color-accent-dark);
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
+  background-color: var(--color-primary-dark);
 
   transition-timing-function: ease;
   transition: 0.2s;
@@ -36,9 +30,9 @@
 
 /* GHOST */
 .btn-ghost {
-  background-color: none;
-  border: 3px solid var(--color-accent-dark);
-  color: var(--color-accent-dark);
+  background-color: rgba(255,255,255,.2);
+  border: 3px solid #fff;
+  color: #fff;
   font-family: var(--font-secondary);
   font-weight: 700;
   border-radius: 0;
@@ -47,14 +41,14 @@
 
 .btn-ghost:hover,
 .btn-ghost:focus {
-  background-color: var(--color-accent-transparent);
-  border: 3px solid var(--color-accent-dark);
-  color: var(--color-accent-dark);
+  background-color: rgba(255,255,255,.3);
+  border: 3px solid #fff;
+  color: #fff;
 }
 
 /* GHOST LIGHT */
 .btn-ghost-light {
-  background-color: white;
+  background-color: rgba(255,255,255,.2);
   border: 3px solid white;
   color: white;
   font-family: var(--font-secondary);
@@ -72,25 +66,19 @@
 
 /* ACCENT */
 .btn-accent {
-  background-color: var(--color-secondary);
+  background-color: var(--color-accent);
   color: white;
   padding: .75em 1.25em;
   border: none;
   border-radius: 0;
-  -webkit-box-shadow: 0 0 20px #888888;
-  -moz-box-shadow: 0 0 20px #888888;
-  box-shadow: 0 0 20px #888888;
 }
 
 .btn-accent:hover {
-  background-color: var(--color-secondary-dark);
+  background-color: var(--color-accent-dark);
 }
 
 .btn-accent:focus {
-  background-color: var(--color-secondary-dark);
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
+  background-color: var(--color-accent-dark);
 
   transition-timing-function: ease-out;
   transition: 0.2s;
@@ -104,9 +92,6 @@
   padding: .5em 1em;
   border: none;
   border-radius: 0;
-  -webkit-box-shadow: 0 0 20px #888888;
-  -moz-box-shadow: 0 0 20px #888888;
-  box-shadow: 0 0 20px #888888;
 }
 
 .btn-secondary:hover {
@@ -115,9 +100,6 @@
 
 .btn-secondary:focus {
   background-color: var(--color-neutral-dark);
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
 
   transition-timing-function: ease-out;
   transition: 0.2s;
@@ -126,20 +108,6 @@
 /* TIME */
 .btn-time {
   padding: .5em 1em;
-}
-
-.btn-time-active {
-  background-color: var(--color-accent-transparent);
-  border: 3px solid var(--color-accent-dark);
-  color: var(--color-accent-dark);
-}
-
-.btn-time-active:active,
- .btn-time-active:focus,
- .btn-time-active:hover {
-  background-color: transparent;
-  border: 3px solid var(--color-accent-dark);
-  color: var(--color-accent-dark);
 }
 
 /* PAYPAL */
