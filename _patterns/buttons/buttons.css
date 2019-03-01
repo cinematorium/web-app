@@ -1,6 +1,7 @@
 .btn {
   font-family: var(--font-secondary);
   transition: background-color 0.2s ease-out;
+  text-align: center;
 }
 
 .btn-hover {
