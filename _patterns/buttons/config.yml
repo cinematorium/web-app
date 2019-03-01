@@ -51,14 +51,6 @@ patterns:
       - name: call-to-action
         type: string
         example: "View details"
-  time-active:
-    title: "Time Active"
-    description: |
-      Now active! To be used on a check-out page, etc...
-    fields:
-      - name: call-to-action
-        type: string
-        example: "View details"
   light:
     title: "Light"
     description: |
@@ -74,7 +66,7 @@ patterns:
     fields:
       - name: call-to-action
         type: string
-        example: "View details"
+        example: "Download"
   paypal:
     title: "Paypal Checkout"
     description: |
