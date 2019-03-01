@@ -15,7 +15,7 @@
 
 
   --font-primary: "Overpass", sans-serif;
-  --font-secondary: "Montserrat", sans-serif;
+  --font-secondary: "Alegreya Sans", sans-serif;
 
   --border-radius: 8px;
 }
@@ -70,9 +70,15 @@
 /* ------- theme typography ---------- */
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-secondary);
-  color: var(--color-primary-dark);
+  font-family: var(--font-primary);
+  color: var(--color-secondary-bright);
 }
+
+body {
+  font-family: var(--font-secondary);
+  font-weight: 400;
+}
+
 
 a {
   color: var(--color-primary-dark);
@@ -83,11 +89,16 @@ mark {
 }
 
 dt {
+  font-family: var(--font-secondary);
   font-weight: bold;
 }
 
 .smallcaps {
   font-variant: small-caps;
+}
+
+.tight {
+  line-height: 1.1;
 }
 
 /* ------- theme ...  ---------- */

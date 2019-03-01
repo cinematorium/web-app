@@ -15,10 +15,23 @@
   padding-right: .325rem;
 }
 
+.w-ticket {
+  min-width: 290px;
+  max-height: 95vh;
+}
+
 @media only screen and (min-width: 32em) {
 
   .sm-1-2 {
     width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .w-ticket {
+    min-width: 330px;
   }
 
 }

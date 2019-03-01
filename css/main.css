@@ -10,3 +10,13 @@
 body {
   background-color: var(--color-dark);
 }
+
+.h-vh {
+ height: 100vh;
+}
+
+.pin-movie-details {
+  left: 50%;
+  top: 25%;
+  transform: translateX(-50%);
+}

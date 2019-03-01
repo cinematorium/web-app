@@ -2,28 +2,26 @@
   summary: A film about...
   image: mother.jpg
   button_text: Buy tickets
+  genre: Dama
+  length: 130min
 
 - title: Avengers
   summary: A film about...
   image: avengers.jpg
   button_text: View details
+  genre: Horror
+  length: 140min
 
 - title: Bird Box
   summary: A film about...
   image: bird-box.jpg
   button_text: View details
+  genre: Comedy
+  length: 90min
 
 - title: Bohemian Rhapsody
   summary: Bohemian Rhapsody is a 2018 biographical film about the British rock band Queen.
   image: card-bohemian.jpg
-  button_text: View details
-
-- title: Bird Box
-  summary: A film about...
-  image: bird-box.jpg
-  button_text: View details
-
-- title: Bohemian Rhapsody
-  summary: Bohemian Rhapsody is a 2018 biographical film about the British rock band Queen.
-  image: card-bohemian.jpg
-  button_text: View details
+  button_text: Buy tickets
+  genre: Adventure
+  length: 110min

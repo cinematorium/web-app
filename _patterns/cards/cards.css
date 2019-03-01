@@ -8,7 +8,7 @@
 }
 
 .home-card:hover img {
-  opacity: .4;
+  opacity: .5;
 }
 
 .btn-card {
@@ -23,4 +23,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   display: block;
+}
+
+.home-card:hover h2 {
+  color: white;
 }
