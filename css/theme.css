@@ -97,4 +97,8 @@ dt {
   font-variant: small-caps;
 }
 
+.tight {
+  line-height: 1.1;
+}
+
 /* ------- theme ...  ---------- */
