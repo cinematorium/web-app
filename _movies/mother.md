@@ -1,6 +1,7 @@
 ---
 title: "Mother! · Movie Details · Cinematorium"
-moviename: "Mother"
+description: "Get more info about the movie Mother!"
+moviename: "Mother!"
 Genre: "Drama, Horror, Mystery"
 Length: 121min
 Year: "2017"

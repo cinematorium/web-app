@@ -1,5 +1,6 @@
 ---
 title: "Bohemian Rhapsody · Movie Details · Cinematorium"
+description: "Get more info about the movie Bohemian Rhapsody"
 moviename: Bohemian Rhapsody
 Genre: "Biography, Drama, Music"
 Length: 134min

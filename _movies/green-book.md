@@ -1,5 +1,6 @@
 ---
 title: "Green Book · Movie Details · Cinematorium"
+description: "Get more info about the movie Green Book"
 moviename: Green Book
 Genre: Biography, Comedy, Drama
 Length: 130min
