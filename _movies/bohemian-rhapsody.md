@@ -7,6 +7,7 @@ Year: 2018
 Country: UK · USA
 Rating: PG
 Trailer: https://www.youtube.com/watch?v=mP0VHJYFOAU
+btnLink: checkout/bohemian-rhapsody
 Poster: "/images/movies/bohemian-rhapsody.jpg"
 hero-wrapClass: hero-bohemian-rhapsody-banner
 Director: Bryan Singer
