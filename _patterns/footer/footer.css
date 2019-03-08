@@ -1,6 +1,18 @@
-.icon {
-  fill: white;
-  justify-content: center;
+footer {
+  width: 100%;
+}
+
+footer hr {
+  border: 1px solid var(--color-primary);
+  margin: 0 6em;
+}
+
+.icons ul li {
+  display: inline-block;
+}
+
+.footer-logo-container {
+  padding: 1rem;
 }
 
 .footer-logo {
@@ -12,7 +24,83 @@ p {
   align-content: center;
 }
 
-.icons {
-  color: white;
+.footer-icons {
+  color: var(--color-primary);
   justify-content: center;
 }
+
+.footer-icons:hover {
+  color: var(--color-primary-dark);
+}
+
+.yellow {
+  color: var(--color-primary);
+}
+
+footer ul li {
+  line-height: 1.2;
+}
+
+.underline-text a {
+  text-decoration: none;
+  color: var(--color-primary);
+  border-bottom: 2px solid var(--color-primary);
+}
+
+.underline-text a:hover {
+  color: var(--color-primary-dark);
+  border-bottom: 2px solid var(--color-primary-dark);
+}
+
+.footer-footnote {
+  color: var(--color-neutral-middle);
+  margin: 0 auto;
+}
+
+.footer-footnote i {
+  color: var(--color-secondary-light);
+}
+
+.footer-footnote-container {
+  background-color: #0b2244;
+}
+
+@media screen and (min-width: 38em) {
+
+  .icons ul li {
+    display: block;
+  }
+
+  .footer-logo-container {
+    padding: 2.6rem;
+  }
+
+}
+
+@media screen and (min-width: 60em) {
+
+  .footer-logo:hover {
+    transform: rotate(300deg);
+
+    -webkit-animation: spin .75s linear infinite;
+    -moz-animation: spin .75s linear infinite;
+    animation: spin .75s linear infinite;
+  }
+
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+    }
+  }
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+ }
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg); transform:rotate(360deg);
+    }
+  }
