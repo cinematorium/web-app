@@ -2,22 +2,19 @@
 title: "Avengers: Infinity War · Movie Details · Cinematorium"
 description: "Get more info about the movie Avengers: Infinity War"
 moviename: "Avengers: Infinity War"
-Genre: Action, Adventure, Fantasy
-Length: 149min
-Year: "2018"
-Country: USA
-Rating: PG
-Trailer: https://www.youtube.com/watch?v=6ZfuNTqbHE8
-Poster: "avengers.jpg"
+genre: "Action, Adventure, Fantasy"
+Poster: "/images/movies/avengers.jpg"
 PosterAlt: Poster for Avengers Infinity War
-banner-img: "banner-avengers.jpg"
-Director: Anthony Russo, Joe Russo
-Cast1: Robert Downey Jr.
-Cast2: Chris Hemsworth
-Cast3: Mark Ruffalo
-Cast4: Chris Evans
+hero-wrapClass: hero-avengers-banner
+bannerImg: "/images/banners/banner-avengers.jpg"
+checkoutLink: "../../checkout/avengers/"
+Director: "Anthony Russo, Joe Russo"
+Cast1: "Robert Downey Jr."
+Cast2: "Chris Hemsworth"
+Cast3: "Mark Ruffalo"
+Cast4: "Chris Evans"
 Showtime1: "4:30 PM"
-Showtime1-price: "$1"5
+Showtime1-price: "$15"
 Showtime2: "6:45 PM"
 Showtime2-price: "$15"
 Showtime3: "9:00 PM"

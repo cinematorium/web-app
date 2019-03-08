@@ -2,20 +2,22 @@
 title: "Green Book · Movie Details · Cinematorium"
 description: "Get more info about the movie Green Book"
 moviename: Green Book
-Genre: "Biography, Comedy, Drama"
+genre: "Biography, Comedy, Drama"
 Length: 130min
 Year: "2018"
 Country: USA
 Rating: PG
 Trailer: https://www.youtube.com/watch?v=uC-_Gon2p9M
 Poster: "/images/movies/green-book.jpg"
+bannerImg: "/images/banners/banner-green-book.jpg"
+checkoutLink: "../../checkout/green-book/"
+hero-wrapClass: hero-green-book-banner
 PosterAlt: Poster for Green Book
-banner-img: "banner-green-book.jpg"
-Director: Peter Farrelly
-Cast1: Viggo Mortensen
-Cast2: Mahershala Ali
-Cast3: Linda Cardellini
-Cast4: Sebastian Maniscalco
+Director: "Peter Farrelly"
+Cast1: "Viggo Mortensen"
+Cast2: "Mahershala Ali"
+Cast3: "Linda Cardellini"
+Cast4: "Sebastian Maniscalco"
 Showtime1: "5:30 PM"
 Showtime1-price: "$15"
 Showtime2: "7:45 PM"

@@ -2,15 +2,16 @@
 title: "Mother! · Movie Details · Cinematorium"
 description: "Get more info about the movie Mother!"
 moviename: "Mother!"
-Genre: "Drama, Horror, Mystery"
+genre: "Drama, Horror, Mystery"
 Length: 121min
 Year: "2017"
 Country: USA
 Rating: "18+"
 Trailer: https://www.youtube.com/watch?v=XpICoc65uh0
 Poster: "/images/movies/mother.jpg"
+bannerImg: "/images/banners/banner-mother.jpg"
+hero-wrapClass: hero-mother-banner
 PosterAlt: Poster for Mother Movie
-banner-img: "banner-mother.jpg"
 Director: Ari Aster
 Cast1: Jennifer Lawrence
 Cast2: Javier Bardem

@@ -2,7 +2,7 @@
 title: "Bohemian Rhapsody · Movie Details · Cinematorium"
 description: "Get more info about the movie Bohemian Rhapsody"
 moviename: Bohemian Rhapsody
-Genre: "Biography, Drama, Music"
+genre: "Biography, Drama, Music"
 Length: 134min
 Year: "2018"
 Country: "UK · USA"
@@ -11,12 +11,13 @@ Trailer: https://www.youtube.com/watch?v=mP0VHJYFOAU
 btnLink: checkout/bohemian-rhapsody
 Poster: "/images/movies/bohemian-rhapsody.jpg"
 PosterAlt: Poster for Bohemian Rhapsody
-banner-img: "banner-bohemian-rhapsody.jpg"
-Director: Bryan Singer
-Cast1: Rami Malek
-Cast2: Lucy Boynton
-Cast3: Gwilym Lee
-Cast4: Ben Hardy
+hero-wrapClass: hero-bohemian-rhapsody-banner
+bannerImg: "/images/banners/banner-bohemian-rhapsody.jpg"
+Director: "Bryan Singer"
+Cast1: "Rami Malek"
+Cast2: "Lucy Boynton"
+Cast3: "Gwilym Lee"
+Cast4: "Ben Hardy"
 Showtime1: "5:30 PM"
 Showtime1-price: "$15"
 Showtime2: "7:45 PM"
