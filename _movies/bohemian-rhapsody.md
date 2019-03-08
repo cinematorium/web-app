@@ -7,7 +7,7 @@ Country: UK · USA
 Rating: PG
 Trailer: https://www.youtube.com/watch?v=mP0VHJYFOAU
 Poster: "/images/movies/bohemian-rhapsody.jpg"
-checkoutLink:
+checkoutLink: "../../checkout/bohemian-rhapsody/"
 hero-wrapClass: hero-bohemian-rhapsody-banner
 bannerImg: "/images/banners/banner-bohemian-rhapsody.jpg"
 Director: Bryan Singer

@@ -9,6 +9,7 @@ Trailer: https://www.youtube.com/watch?v=6ZfuNTqbHE8
 Poster: "/images/movies/avengers.jpg"
 hero-wrapClass: hero-avengers-banner
 bannerImg: "/images/banners/banner-avengers.jpg"
+checkoutLink: "../../checkout/avengers/"
 Director: "Anthony Russo, Joe Russo"
 Cast1: Robert Downey Jr.
 Cast2: Chris Hemsworth
