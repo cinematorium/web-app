@@ -7,6 +7,8 @@ collections:
     output: true
   checkout:
     output: true
+  tickets:
+    output: true
 defaults:
   -
     scope:
@@ -18,7 +20,11 @@ defaults:
       path: "_checkout"
     values:
       layout: checkout
-
+  -
+    scope:
+      path: "_tickets"
+    values:
+      layout: tickets
 
 patternbot:
   title: "Cinematorium Today"
