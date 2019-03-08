@@ -9,6 +9,8 @@ Country: "UK · USA"
 Rating: PG
 Trailer: https://www.youtube.com/watch?v=mP0VHJYFOAU
 btnLink: checkout/bohemian-rhapsody
+checkoutLink: "../../checkout/bohemian-rhapsody/"
+ticketLink: "../../tickets/bohemian-rhapsody/"
 Poster: "/images/movies/bohemian-rhapsody.jpg"
 PosterAlt: Poster for Bohemian Rhapsody
 hero-wrapClass: hero-bohemian-rhapsody-banner
