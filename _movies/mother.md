@@ -1,12 +1,14 @@
 ---
 title: "Mother! · Movie Details · Cinematorium"
+description: "Get more info about the movie Mother!"
+moviename: "Mother!"
 Genre: "Drama, Horror, Mystery"
 Length: 121min
 Year: "2017"
 Country: USA
 Rating: "18+"
 Trailer: https://www.youtube.com/watch?v=XpICoc65uh0
-Poster: "mother.jpg"
+Poster: "/images/movies/mother.jpg"
 PosterAlt: Poster for Mother Movie
 banner-img: "banner-mother.jpg"
 Director: Ari Aster
