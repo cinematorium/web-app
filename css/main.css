@@ -20,10 +20,9 @@ body {
  height: 100vh;
 }
 
-.pin-movie-details {
-  left: 50%;
-  top: 25%;
-  transform: translateX(-50%);
+.movie-details {
+  margin-top: -18em;
+  position: relative;
 }
 
 a:focus {
@@ -33,4 +32,13 @@ a:focus {
 .cards-wrapper {
   top: 63%;
   /* margin: 0 3em; */
+}
+
+@media only screen and (min-width: 60em) {
+
+  .movie-details {
+    margin-top: -12em;
+    margin-bottom: 3em;
+  }
+
 }
