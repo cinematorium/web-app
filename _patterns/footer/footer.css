@@ -1,10 +1,10 @@
 footer {
   width: 100%;
+  bottom: 0;
 }
 
 footer hr {
   border: 1px solid var(--color-primary);
-  margin: 0 6em;
 }
 
 .icons ul li {
