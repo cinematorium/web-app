@@ -14,7 +14,7 @@ Cast2: "Chris Hemsworth"
 Cast3: "Mark Ruffalo"
 Cast4: "Chris Evans"
 Showtime1: "4:30 PM"
-Showtime1-price: "$1"5
+Showtime1-price: "$15"
 Showtime2: "6:45 PM"
 Showtime2-price: "$15"
 Showtime3: "9:00 PM"
