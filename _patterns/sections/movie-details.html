@@ -4,52 +4,58 @@
     <div class="unit xs-1-2 ml-1-3">
       <div class="xs-ml-gutter-1-4">
         <div class="embed embed-poster push">
-          <img class="embed-item img-flex" src="/images/movies/card-bohemian.jpg" alt="">
+          <img class="embed-item img-flex" src="{{page.Poster}}" alt="{{page.PosterAlt}}">
         </div>
       </div>
       <div class="push xs-ml-gutter-1-4">
-        <a class="btn white" href="#">View trailer</a>
+        <a class="btn white" href="{{page.Trailer}}">View trailer</a>
       </div>
 
       <div class="grid">
         <dl class="unit xs-1 sm-1-2 push-0 xs-ml-gutter-1-4">
-          <dt class="color-secondary-bright normal">director</dt>
-          <dd class="push-1-2 tight milli">Name Name</dd>
+          <dt class="color-primary normal">director</dt>
+          <dd class="push-1-2 tight milli">{{page.Director}}</dd>
         </dl>
         <dl class="unit xs-1 sm-1-2 push xs-ml-gutter-1-4">
-          <dt class="color-secondary-bright normal">cast</dt>
-          <dd class="push-1-4 tight milli">Name Name</dd>
-          <dd class="push-1-4 tight milli">Name Name</dd>
-          <dd class="push-1-4 tight milli">Name Name</dd>
-          <dd class="push-1-4 tight milli">Name Name</dd>
+          <dt class="color-primary normal">cast</dt>
+          <dd class="push-1-4 tight milli">{{page.Cast1}}</dd>
+          <dd class="push-1-4 tight milli">{{page.Cast2}}</dd>
+          <dd class="push-1-4 tight milli">{{page.Cast3}}</dd>
+          <dd class="push-1-4 tight milli">{{page.Cast4}}</dd>
         </dl>
       </div>
     </div>
 
     <div class="unit xs-1-2 ml-2-3">
-      <p class="inline-block milli push-0 color-secondary-bright xs-ml-gutter-1-4">{{include.data.genre}}</p>
-      <p class="inline-block milli push-0 color-secondary-bright xs-ml-gutter-1-4">{{include.data.length}}</p>
-      <p class="inline-block milli push-1-4 color-secondary-bright xs-ml-gutter-1-4">United States</p>
+      <p class="inline-block milli push-0 color-primary xs-ml-gutter-1-4">{{page.genre}}</p>
+      <p class="inline-block milli push-0 color-primary xs-ml-gutter-1-4">{{page.Length}}</p>
+      <p class="inline-block milli push-1-4 color-primary xs-ml-gutter-1-4">{{page.Country}}</p>
 
       <div class="xs-ml-gutter-1-4">
-        <h1 class="zetta white push-1-2">Movie Name</h1>
-        <h3 class="kilo normal push-0 color-secondary-bright">synopsis</h3>
-        <p class="push-1-2 milli">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper</p>
-        <p class=" milli">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper</p>
-        <h3 class="kilo normal push-1-4 color-secondary-bright">showtimes</h3>
+        <h1 class="zetta white push-1-2">{{page.moviename}}</h1>
+        <h3 class="kilo normal push-0 color-primary">synopsis</h3>
+        <div class="milli push-1-2">
+          {{page.content|markdownify}}
+        </div>
+        <h3 class="kilo normal push-1-4 color-primary">showtimes</h3>
         <div class="smallcaps">
-          <a class="btn text-center push-1-2" href="#">
-            <time class="bold block" datetime="10:45">10:45am</time>
-            <data value="…">15$</data>
+          <a class="btn text-center push-1-2" href="{{page.checkoutLink}}">
+            <time class="bold block" datetime="10:45">{{page.Showtime1}}</time>
+            <data value="…">{{page.Showtime1-price}}</data>
           </a>
-          <a class="btn text-center push-1-2" href="#">
-            <time class="bold block" datetime="10:45">10:45am</time>
-            <data value="…">15$</data>
+          <a class="btn text-center push-1-2" href="{{page.checkoutLink}}">
+            <time class="bold block" datetime="10:45">{{page.Showtime2}}</time>
+            <data value="…">{{page.Showtime2-price}}</data>
           </a>
-          <a class="btn text-center push-1-2" href="#">
-            <time class="bold block" datetime="10:45">10:45am</time>
-            <data value="…">15$</data>
+          <a class="btn text-center push-1-2" href="{{page.checkoutLink}}">
+            <time class="bold block" datetime="10:45">{{page.Showtime3}}</time>
+            <data value="…">{{page.Showtime3-price}}</data>
           </a>
+          <div>
+            {% pattern buttons/time %}
+            {% pattern buttons/time %}
+            {% pattern buttons/time %}
+         </div> 
         </div>
       </div>
     </div>

@@ -1,6 +1,8 @@
 .btn {
+  text-align: center;
   font-family: var(--font-secondary);
   transition: background-color 0.2s ease-out;
+  text-align: center;
 }
 
 .btn-hover {
@@ -121,4 +123,38 @@
 .btn-paypal:hover,
  .btn-paypal:focus {
   background-color: #d3a64c;
+}
+
+/* ON CARD */
+
+.btn-on-card {
+  background-color: var(--color-secondary-light);
+  border: none;
+
+  padding: .5em 1em;
+
+}
+
+.btn-on-card {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.home-card:hover .btn-on-card {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+}
+
+.btn-on-card:hover,
+.btn-on-card:active {
+  background-color: var(--color-secondary);
+  border: none;
+}
+
+.btn-on-card:focus {
+  background-color: var(--color-secondary-dark);
 }
