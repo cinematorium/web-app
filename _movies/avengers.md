@@ -4,7 +4,8 @@ description: "Get more info about the movie Avengers: Infinity War"
 moviename: "Avengers: Infinity War"
 genre: "Action, Adventure, Fantasy"
 Poster: "/images/movies/avengers.jpg"
-PosterAlt: Poster for Avengers Infinity War
+PosterAlt: "Poster for Avengers Infinity War"
+Trailer: https://www.youtube.com/watch?v=OxzKb4a1Qc4
 hero-wrapClass: hero-avengers-banner
 bannerImg: "/images/banners/banner-avengers.jpg"
 checkoutLink: "../../checkout/avengers/"

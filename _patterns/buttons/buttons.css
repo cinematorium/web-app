@@ -23,7 +23,21 @@
   background-color: var(--color-primary-dark);
 }
 
-.btn-primary:focus {
+.btn-trailer {
+  background-color: var(--color-primary);
+  color: white;
+  padding: .75em 1.25em;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+}
+
+.btn-trailer:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.btn-primary:focus,
+.btn-trailer:focus {
   background-color: var(--color-primary-dark);
 
   transition-timing-function: ease;
@@ -32,8 +46,8 @@
 
 /* GHOST */
 .btn-ghost {
-  background-color: rgba(255,255,255,.2);
-  border: 3px solid #fff;
+  background-color: rgba(255,255,255,.1);
+  border: 2px solid #fff;
   color: #fff;
   font-family: var(--font-secondary);
   font-weight: 700;
@@ -43,8 +57,8 @@
 
 .btn-ghost:hover,
 .btn-ghost:focus {
-  background-color: rgba(255,255,255,.3);
-  border: 3px solid #fff;
+  background-color: rgba(255,255,255,.25);
+  border: 2px solid #fff;
   color: #fff;
 }
 
@@ -89,7 +103,7 @@
 /* SECONDARY */
 .btn-secondary {
   font-weight: 500;
-  background-color: var(--color-neutral-middle);
+  background-color: var(--color-secondary);
   color: white;
   padding: .5em 1em;
   border: none;
@@ -97,11 +111,11 @@
 }
 
 .btn-secondary:hover {
-  background-color: var(--color-neutral-dark);
+  background-color: var(--color-secondary-dark);
 }
 
 .btn-secondary:focus {
-  background-color: var(--color-neutral-dark);
+  background-color: var(--color-secondary-dark);
 
   transition-timing-function: ease-out;
   transition: 0.2s;
@@ -114,7 +128,7 @@
 
 /* PAYPAL */
 .btn-paypal {
-  padding: 1em 2.25em;
+  padding: 1em;
   background-color: #eabc53;
   border: none;
   border-radius: 0;
