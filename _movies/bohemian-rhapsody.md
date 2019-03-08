@@ -1,14 +1,15 @@
 ---
-layout: movie
 title: Bohemian Rhapsody · Movie Details · Cinematorium
-Genre: Biography, Drama, Music
+genre: Biography, Drama, Music
 Length: 2h 14min
 Year: 2018
 Country: UK · USA
 Rating: PG
 Trailer: https://www.youtube.com/watch?v=mP0VHJYFOAU
 Poster: "/images/movies/bohemian-rhapsody.jpg"
+checkoutLink:
 hero-wrapClass: hero-bohemian-rhapsody-banner
+bannerImg: "/images/banners/banner-bohemian-rhapsody.jpg"
 Director: Bryan Singer
 Cast1: Rami Malek
 Cast2: Lucy Boynton

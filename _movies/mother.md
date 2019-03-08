@@ -1,13 +1,13 @@
 ---
-layout: movie
 title: Mother! · Movie Details · Cinematorium
-Genre: Drama, Horror, Mystery
+genre: Drama, Horror, Mystery
 Length: 2h 1min
 Year: 2017
 Country: USA
 Rating: 18+
 Trailer: https://www.youtube.com/watch?v=XpICoc65uh0
 Poster: "/images/movies/mother.jpg"
+bannerImg: "/images/banners/banner-mother.jpg"
 hero-wrapClass: hero-mother-banner
 Director: Ari Aster
 Cast1: Jennifer Lawrence

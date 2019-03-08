@@ -1,7 +1,6 @@
 ---
-layout: movie
-title: Avengers: Infinity War · Movie Details · Cinematorium
-Genre: Action, Adventure, Fantasy
+title: "Avengers: Infinity War · Movie Details · Cinematorium"
+genre: "Action, Adventure, Fantasy"
 Length: 2h 29min
 Year: 2018
 Country: USA
@@ -9,7 +8,8 @@ Rating: PG
 Trailer: https://www.youtube.com/watch?v=6ZfuNTqbHE8
 Poster: "/images/movies/avengers.jpg"
 hero-wrapClass: hero-avengers-banner
-Director: Anthony Russo, Joe Russo
+bannerImg: "/images/banners/banner-avengers.jpg"
+Director: "Anthony Russo, Joe Russo"
 Cast1: Robert Downey Jr.
 Cast2: Chris Hemsworth
 Cast3: Mark Ruffalo
