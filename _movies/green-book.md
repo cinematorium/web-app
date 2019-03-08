@@ -2,13 +2,14 @@
 title: "Green Book · Movie Details · Cinematorium"
 description: "Get more info about the movie Green Book"
 moviename: Green Book
-Genre: Biography, Comedy, Drama
+Genre: "Biography, Comedy, Drama"
 Length: 130min
 Year: "2018"
 Country: USA
 Rating: PG
 Trailer: https://www.youtube.com/watch?v=uC-_Gon2p9M
-Poster: "green-book.jpg"
+Poster: "/images/movies/green-book.jpg"
+PosterAlt: Poster for Green Book
 banner-img: "banner-green-book.jpg"
 Director: Peter Farrelly
 Cast1: Viggo Mortensen

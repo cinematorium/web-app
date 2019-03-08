@@ -8,14 +8,15 @@ Year: "2017"
 Country: USA
 Rating: "18+"
 Trailer: https://www.youtube.com/watch?v=XpICoc65uh0
-Poster: "mother.jpg"
+Poster: "/images/movies/mother.jpg"
+PosterAlt: Poster for Mother Movie
 banner-img: "banner-mother.jpg"
 Director: Ari Aster
 Cast1: Jennifer Lawrence
 Cast2: Javier Bardem
 Cast3: Ed Harris
 Cast4: Michelle Pfeiffer
-Showtime1: 5:45 PM
+Showtime1: "5:45 PM"
 Showtime1-price: "$15"
 Showtime2: "7:30 PM"
 Showtime2-price: "$15"

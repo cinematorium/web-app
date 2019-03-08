@@ -8,7 +8,9 @@ Year: "2018"
 Country: "UK · USA"
 Rating: PG
 Trailer: https://www.youtube.com/watch?v=mP0VHJYFOAU
-Poster: "bohemian-rhapsody.jpg"
+btnLink: checkout/bohemian-rhapsody
+Poster: "/images/movies/bohemian-rhapsody.jpg"
+PosterAlt: Poster for Bohemian Rhapsody
 banner-img: "banner-bohemian-rhapsody.jpg"
 Director: Bryan Singer
 Cast1: Rami Malek
