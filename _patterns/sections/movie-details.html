@@ -8,16 +8,16 @@
         </div>
       </div>
       <div class="push xs-ml-gutter-1-4">
-        <a class="btn white" href="{{page.Trailer}}">View trailer</a>
+        <a class="btn btn-trailer milli white" href="{{page.Trailer}}">View Trailer</a>
       </div>
 
       <div class="grid">
         <dl class="unit xs-1 sm-1-2 push-0 xs-ml-gutter-1-4">
-          <dt class="color-primary normal">director</dt>
+          <dt class="color-primary normal">Director</dt>
           <dd class="push-1-2 tight milli">{{page.Director}}</dd>
         </dl>
         <dl class="unit xs-1 sm-1-2 push xs-ml-gutter-1-4">
-          <dt class="color-primary normal">cast</dt>
+          <dt class="color-primary normal">Cast</dt>
           <dd class="push-1-4 tight milli">{{page.Cast1}}</dd>
           <dd class="push-1-4 tight milli">{{page.Cast2}}</dd>
           <dd class="push-1-4 tight milli">{{page.Cast3}}</dd>
@@ -33,43 +33,23 @@
 
       <div class="xs-ml-gutter-1-4">
         <h1 class="zetta white push-1-2">{{page.moviename}}</h1>
-        <h3 class="kilo normal push-0 color-primary">synopsis</h3>
+        <h3 class="kilo normal push-0 color-primary">Synopsis</h3>
         <div class="milli push-1-2">
           {{page.content|markdownify}}
         </div>
-        <h3 class="kilo normal push-1-4 color-primary">showtimes</h3>
+        <h3 class="kilo normal push-1-4 color-primary">Showtimes</h3>
         <div class="smallcaps">
-          <a class="btn text-center push-1-2" href="{{page.checkoutLink}}">
-            <time class="bold block" datetime="10:45">{{page.Showtime1}}</time>
-            <data value="…">{{page.Showtime1-price}}</data>
-          </a>
-          <a class="btn text-center push-1-2" href="{{page.checkoutLink}}">
-            <time class="bold block" datetime="10:45">{{page.Showtime2}}</time>
-            <data value="…">{{page.Showtime2-price}}</data>
-          </a>
-          <a class="btn text-center push-1-2" href="{{page.checkoutLink}}">
-            <time class="bold block" datetime="10:45">{{page.Showtime3}}</time>
-            <data value="…">{{page.Showtime3-price}}</data>
-          </a>
-          <div>
-            {% pattern buttons/time %}
-            {% pattern buttons/time %}
-            {% pattern buttons/time %}
-         </div> 
+          <div class="inline-block push-1-2 gutter-1-8">
+            {% pattern buttons/time time=page.Showtime1 price=page.Showtime1-price %}
+          </div>
+          <div class="inline-block push-1-2 gutter-1-8">
+            {% pattern buttons/time time=page.Showtime2 price=page.Showtime2-price %}
+          </div>
+          <div class="inline-block push-1-2 gutter-1-8">
+            {% pattern buttons/time time=page.Showtime3 price=page.Showtime3-price %}
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-
-
-
-<!-- <div class="">
-  <img class="img-flex" src="/images/movies/{{include.data.image}}" alt="">
-  <div class="island-1-2">
-    <h2>{{include.data.title}}</h2>
-    <p>{{include.data.summary}}</p>
-
-    {% pattern buttons/basic call-to-action=include.data.button_text %}
-  </div>
-</div> -->
