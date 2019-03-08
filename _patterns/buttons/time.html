@@ -1,6 +1,20 @@
-<a class="btn btn-ghost btn-time text-center mega bold icon-link" href="{{page.btnLink}}">
+<a class="btn btn-ghost btn-time text-center kilo bold icon-link" href="{{page.checkoutLink}}">
+  <i class="icon i-24">
+    <svg><use xlink:href="/images/icons.svg#icon-time"></use></svg>
+  </i> {{include.time}}<br>
+  <span class="milli not-bold">{{include.price}}</span>
+</a>
+
+<!-- <a class="btn btn-ghost btn-time text-center mega bold icon-link" href="{{page.checkoutLink}}">
   <i class="icon i-24">
     <svg><use xlink:href="/images/icons.svg#icon-time"></use></svg>
   </i> {{include.time | default: '5:45 PM'}}<br>
   <span class="milli not-bold">{{include.price | default: '$6.50'}}</span>
-</a>
+</a> -->
+
+<!-- Showtime1: "5:30 PM"
+Showtime1-price: "$15"
+Showtime2: "7:45 PM"
+Showtime2-price: "$15"
+Showtime3: "9:50 PM"
+Showtime3-price: "$15" -->

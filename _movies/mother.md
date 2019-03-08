@@ -11,6 +11,8 @@ Trailer: https://www.youtube.com/watch?v=XpICoc65uh0
 Poster: "/images/movies/mother.jpg"
 bannerImg: "/images/banners/banner-mother.jpg"
 hero-wrapClass: hero-mother-banner
+checkoutLink: "../../checkout/mother/"
+ticketLink: "../../tickets/mother/"
 PosterAlt: Poster for Mother Movie
 Director: Ari Aster
 Cast1: Jennifer Lawrence

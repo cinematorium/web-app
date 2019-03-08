@@ -11,6 +11,7 @@ Trailer: https://www.youtube.com/watch?v=uC-_Gon2p9M
 Poster: "/images/movies/green-book.jpg"
 bannerImg: "/images/banners/banner-green-book.jpg"
 checkoutLink: "../../checkout/green-book/"
+ticketLink: "../../tickets/green-book/"
 hero-wrapClass: hero-green-book-banner
 PosterAlt: Poster for Green Book
 Director: "Peter Farrelly"
