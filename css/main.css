@@ -26,8 +26,11 @@ body {
   transform: translateX(-50%);
 }
 
-a:focus {
-  outline: 3px solid #000;
+a:focus,
+div:focus,
+footer:focus,
+main:focus {
+  outline: 3px solid var(--color-neutral)!important;
 }
 
 .cards-wrapper {
