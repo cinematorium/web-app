@@ -1,17 +1,17 @@
 .hero-wrap {
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: no-repeat; */
+   background-size: cover;
   position: relative;
   height: 30%;
   padding: 12rem 0;
 }
 
 .banner-gradient {
-  background-image: linear-gradient(rgba(6, 19, 39, 0.5), rgba(6, 19, 39, 1));
-  min-height: 20rem;
+  background-image: linear-gradient(rgba(6, 19, 39, 1), rgba(6, 19, 39, .75), rgba(6, 19, 39, 1));
+  min-height: 26rem;
 }
 
 body {
-  background-color: #291615;
+  /* background-color: #291615; */
 }
