@@ -13,7 +13,7 @@ body {
 }
 
 .cards-container {
-  margin-top: -3em;
+  margin-top: -4em;
 }
 
 .h-vh {
@@ -37,8 +37,28 @@ a:focus {
 @media only screen and (min-width: 60em) {
 
   .movie-details {
-    margin-top: -12em;
+    margin-top: -16em;
     margin-bottom: 3em;
   }
 
+}
+
+.banner-negative {
+  margin-top: -5em;
+}
+
+.banner-negative-1 {
+  margin-top: -1em;
+}
+
+a:focus,
+[tabindex="0"]:focus,
+details:focus,
+summary:focus,
+input:focus,
+textarea:focus,
+button:focus,
+select:focus {
+  outline: 3px solid var(--color-secondary-light);
+  outline-offset: 3px;
 }
