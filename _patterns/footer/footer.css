@@ -29,7 +29,8 @@ p {
   justify-content: center;
 }
 
-.footer-icons:hover {
+.footer-icons:hover,
+.footer-icons:focus {
   color: var(--color-primary-dark);
 }
 
@@ -47,7 +48,8 @@ footer ul li {
   border-bottom: 2px solid var(--color-primary);
 }
 
-.underline-text a:hover {
+.underline-text a:hover,
+.underline-text a:focus {
   color: var(--color-primary-dark);
   border-bottom: 2px solid var(--color-primary-dark);
 }
@@ -79,7 +81,8 @@ footer ul li {
 
 @media screen and (min-width: 60em) {
 
-  .footer-logo:hover {
+  .footer-logo:hover,
+  .footer-logo:focus  {
     transform: rotate(300deg);
 
     -webkit-animation: spin .75s linear infinite;

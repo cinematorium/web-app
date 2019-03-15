@@ -11,6 +11,14 @@
   opacity: .5;
 }
 
+.home-card:focus img {
+  opacity: .5;
+}
+
 .home-card:hover h2 {
+  color: white;
+}
+
+.home-card:focus h2 {
   color: white;
 }
