@@ -59,6 +59,6 @@ input:focus,
 textarea:focus,
 button:focus,
 select:focus {
-  outline: 3px solid var(--color-secondary-light);
+  outline: 2px solid var(--color-secondary-light);
   outline-offset: 3px;
 }
