@@ -114,6 +114,11 @@
   width: 46px;
 }
 
+.i-10-24 {
+  height: 10px;
+  width: 24px;
+}
+
 @media only screen and (min-width: 38em) {
 
   .i-l-56 {
