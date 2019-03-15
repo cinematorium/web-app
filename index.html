@@ -2,10 +2,4 @@
 layout: default
 ---
 
-<div class="grid">
-  {% for movie in site.data.movies %}
-    <div class="unit xs-1 s-1-2 m-1-3 l-1-4">
-      {% pattern cards/home-card data=movie %}
-    </div>
-  {% endfor %}
-</div>
+{% pattern header/header %}

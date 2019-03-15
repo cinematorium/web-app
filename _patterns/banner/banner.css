@@ -1,5 +1,5 @@
 .background-image {
-  background-image: linear-gradient(rgba(6, 19, 39, 1), rgba(6, 19, 39, .75), rgba(6, 19, 39, 1)), url("../images/home-banner-photo.jpg");
+  background-image: linear-gradient(rgba(6, 19, 39, .9), rgba(6, 19, 39, .75), rgba(6, 19, 39, 1)), url("../images/home-banner-photo.jpg");
   background-size: cover;
   min-height: 400px;
   background-position: center center;

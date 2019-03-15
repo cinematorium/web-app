@@ -7,7 +7,7 @@
 }
 
 .ticket-masthead {
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-bright);
 }
 
 .xs-ml-gutter-1-4 {
@@ -107,4 +107,23 @@
 .h-line-on-dark {
   border-width: 2px;
   border-color: white;
+}
+
+.i-l-56 {
+  height: 46px;
+  width: 46px;
+}
+
+.i-10-24 {
+  height: 10px;
+  width: 24px;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .i-l-56 {
+    height: 56px;
+    width: 56px;
+  }
+
 }
